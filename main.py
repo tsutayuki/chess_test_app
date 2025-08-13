@@ -18,7 +18,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"ok": True, "msg": "hello from Render"}
+    return {"ok": True, "msg": "My name is donta. I am chess player."}
 
 @app.get("/ping")
 def ping():
